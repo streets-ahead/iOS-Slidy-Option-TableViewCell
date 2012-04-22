@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SlidyTableCell.h"
+#import <CoreData/CoreData.h>
 
-@interface MasterViewController : UITableViewController
+@class NSFetchedResultsController;
 
+@interface MasterViewController : UITableViewController <CellActionDelegate, NSFetchedResultsControllerDelegate> {
+    NSFetchedResultsController* _fetchController;
+}
+@property (strong) SlidyTableCell* currentActionCell;  
 @end
