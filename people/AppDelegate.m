@@ -26,25 +26,20 @@
                             bday:[NSDate dateWithMonth:3 day:9 year:1985] title:@"Ambassador of Awesome" 
                          twitter:@"tkeeney2"
                            photo:@"http://sammussell.com/terry.png"];
-    [Person createPersonWithName:@"Dana Reynolds" 
-                       startdate:[NSDate dateWithMonth:1 day:5 year:2007] 
-                            bday:[NSDate dateWithMonth:2 day:8 year:1984] title:@"Queen of Operations" 
-                         twitter:@"dreynolds"
-                           photo:@"danadroid.png"];
     [Person createPersonWithName:@"Ron Swanson" 
                        startdate:[NSDate dateWithMonth:1 day:5 year:2007] 
                             bday:[NSDate dateWithMonth:2 day:8 year:1984] title:@"Director" 
-                         twitter:@"dreynolds"
+                         twitter:@""
                            photo:@"http://sammussell.com/ron.jpg"];
     [Person createPersonWithName:@"Leslie Knope" 
                        startdate:[NSDate dateWithMonth:1 day:5 year:2001] 
                             bday:[NSDate dateWithMonth:2 day:8 year:1984] title:@"Assistant Director" 
-                         twitter:@"dreynolds"
+                         twitter:@""
                            photo:@"http://cdn.smallscreenscoop.com/wp-content/uploads/2011/12/best-leslie-knope-quotes-480x304.jpg"];
     [Person createPersonWithName:@"Jim Halpert" 
                        startdate:[NSDate dateWithMonth:1 day:5 year:2007] 
                             bday:[NSDate dateWithMonth:2 day:8 year:1984] title:@"Salesman" 
-                         twitter:@"dreynolds"
+                         twitter:@""
                            photo:@"http://sammussell.com/jim.jpg"];
     
     [self saveContext];
