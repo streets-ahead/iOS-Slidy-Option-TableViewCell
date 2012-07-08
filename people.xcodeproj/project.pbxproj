@@ -221,6 +221,7 @@
 		223C768E150BEF6B0040D903 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				22B771F4150845C00031D28E /* MainStoryboard.storyboard */,
 				22B7721A150847170031D28E /* SlidyTableCell.h */,
 				22B7721B150847170031D28E /* SlidyTableCell.m */,
 				22D410931509A0E00029A57A /* PersonView.h */,
@@ -236,6 +237,15 @@
 				22B771F8150845C00031D28E /* MasterViewController.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		229F4D4815A9044F00C71D73 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				22D410A11509CC750029A57A /* NSDate+Extra.h */,
+				22D410A21509CC750029A57A /* NSDate+Extra.m */,
+			);
+			name = Libs;
 			sourceTree = "<group>";
 		};
 		22B771D3150845C00031D28E = {
@@ -275,17 +285,13 @@
 		22B771E8150845C00031D28E /* people */ = {
 			isa = PBXGroup;
 			children = (
+				229F4D4815A9044F00C71D73 /* Libs */,
 				22F8B5C2150C656200BAA5F2 /* Models */,
 				223C768F150BEF810040D903 /* Controllers */,
 				223C768E150BEF6B0040D903 /* Views */,
-				223C768D150BEF480040D903 /* Fonts */,
-				223C768C150BEF380040D903 /* Images */,
 				22B771F1150845C00031D28E /* AppDelegate.h */,
 				22B771F2150845C00031D28E /* AppDelegate.m */,
-				22B771F4150845C00031D28E /* MainStoryboard.storyboard */,
 				22B771E9150845C00031D28E /* Supporting Files */,
-				22D410A11509CC750029A57A /* NSDate+Extra.h */,
-				22D410A21509CC750029A57A /* NSDate+Extra.m */,
 			);
 			path = people;
 			sourceTree = "<group>";
@@ -293,6 +299,8 @@
 		22B771E9150845C00031D28E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				223C768C150BEF380040D903 /* Images */,
+				223C768D150BEF480040D903 /* Fonts */,
 				22B771EA150845C00031D28E /* people-Info.plist */,
 				22B771EB150845C00031D28E /* InfoPlist.strings */,
 				22B771EE150845C00031D28E /* main.m */,
